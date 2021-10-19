@@ -4,32 +4,96 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio website</title>
     <link rel="stylesheet" href="style.css" />
-    <style>
-      .grid-container {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-        grid-gap: 3px;
-      }
-      .grid-container div {
-        background-color: blueviolet;
-        padding: 20px;
-      }
-    </style>
   </head>
   <body>
-    <div class="grid-container">
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
-      <div>5</div>
-      <div>6</div>
-      <div>7</div>
-      <div>8</div>
-      <div>9</div>
-      <div>10</div>
-    </div>
+    <section class="section-welcome">
+      <div class="container">
+        <div class="section-wraper">
+          <div class="left-content">
+            <h1 class="heading1">Welcome To</h1>
+            <h2 class="heading2"><span>Peter Parker</span> World</h2>
+            <h4 class="heading4">Build Climber and Train Stopper</h4>
+            <p>
+              You might saw me jumping, climbing buildings, and stopping trains.
+              But nobody pays me a dime for that work. That's why I am learning
+              and mastering web development. I will not stop until I become the
+              Web Development Hero.
+            </p>
+            <button class="hireme-btn"><a href="#HIRE ME">Hire Me</a></button>
+          </div>
+          <div class="right-content">
+            <img src="images/jhankar.png" alt="" class="personal-image" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-dream">
+      <div class="container">
+        <div class="section-wraper">
+          <div class="lef-content">
+            <img src="images/jhankar2.png" alt="" class="personal-image" />
+          </div>
+          <div class="right-content">
+            <h2 class="heading2">Dream Big</h2>
+            <h4 class="heading4">Become a web developer</h4>
+            <p>
+              I already learned the basic HTML and CSS. I can build any simple
+              website. I can even teach my grandma how to make simple website.
+              My goal is to build 3 websites and learn advanced topics.
+            </p>
+            <button class="hireme-btn">
+              <a href="#HIRE ME">DOWNLOAD RESUME</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-experiences">
+      <div class="container">
+        <div class="header">
+          <h1>Experiences</h1>
+        </div>
+        <div class="experience-boxes">
+          <div class="experience-box">
+            <h3 class="heading3">Full Stack Web Developer</h3>
+            <h4 class="heading4">
+              <span>2021-Present | Pro Level Developer </span>
+            </h4>
+            <p>
+              I am the master of HTML, CSS and Javascript. I know everything
+              needed to make a website function, efficient. I didn't stop with
+              the web. I went beyond with most popular Javascript framework
+              called Vue JS. I even know the deployment, server and security. I
+              will give you 100% web solution.
+            </p>
+          </div>
+          <div class="experience-box">
+            <h3 class="heading3">Baby Web Developer</h3>
+            <h4 class="heading4">
+              <span>2020-2021 | Programming Hero Learner </span>
+            </h4>
+            <p>
+              They didn't offer me a job. But I made myself as a remove web
+              developer. I made their website and showed it to them. They liked
+              it. And uploaded the content. It was fun working at Programming
+              Hero.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="copywrite-text">
+          © Peter Parker 2021, a Programming Hero initiative.
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
